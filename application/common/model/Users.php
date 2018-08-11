@@ -40,4 +40,9 @@ class Users extends Model
         return $this->where($where)->paginate($limit);
     }
 
+    public function testFunction()
+    {
+        echo '111;';
+    }
+
 }
