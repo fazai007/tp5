@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+</head>
+<body>
+<div>
+    <ul>
+        {volist name='list' id='user'}
+        <li>{$user.nickname}</li>
+        {/volist}
+    </ul>
+</div>
+{$list|raw}
+</body>
+</html>
